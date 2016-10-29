@@ -4,6 +4,16 @@ body {
   padding-bottom: 20px;
 }
 
+.login-details {
+  margin: 15px auto;
+  color: white;
+}
+
+.app-content {
+  padding: 50px;
+  min-height: 800px;
+}
+
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;

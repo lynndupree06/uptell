@@ -26,16 +26,18 @@
 
 <%= render :partial => 'shared/navigation' %>
 
-<div class="container">
-  <% if notice.present? || alert.present? %>
+<% if notice.present? || alert.present? %>
+    <div class="container">
       <div class="alert alert-info" role="alert">
         <p class="notice"><%= notice %></p>
         <p class="alert"><%= alert %></p>
       </div>
-  <% end %>
-</div>
+    </div>
+<% end %>
 
-<%= yield %>
+<div class="app-content">
+  <%= yield %>
+</div>
 
 <%= render :partial => 'shared/footer' %>
 
