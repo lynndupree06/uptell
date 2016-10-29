@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get 'videostory' => 'dashboard#videostory'
   get 'textstory' => 'dashboard#textstory'
   get 'picturestory' => 'dashboard#photostory'
+  get 'sampleproject' => 'dashboard#sampleproject'
 
   devise_for :users
   root to: 'home#index'

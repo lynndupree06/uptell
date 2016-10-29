@@ -24,4 +24,7 @@ class DashboardController < ApplicationController
 
   def groupstory
   end
+
+  def sampleproject
+  end
 end
